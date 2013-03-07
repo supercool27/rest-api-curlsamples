@@ -1,0 +1,5 @@
+curl -v -k -H 'Content-Type: application/json' \
+	   -H 'Accept: application/json' \
+	   -H 'Authorization: Bearer EC2nxLmEdO8QTuaRuv9Dzyyjvw1g8COx_Dc30TdnY1aR' \
+	   -d '{ "amount":{ "total":"3.01", "currency":"USD" } }' \
+	https://api.sandbox.paypal.com/v1/payments/sale/77F18369DR7965601/refund

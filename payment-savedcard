@@ -1,0 +1,6 @@
+curl -v -k -H 'Content-Type: application/json' \
+	   -H 'Accept: application/json' \
+	   -H 'Authorization: Bearer ENilfXYVHBZFw5Fpbu0g923CrVGeaBmPwyowfn92vhpH'\
+	   -d '{ "intent":"sale", "payer":{ "payment_method":"credit_card", "funding_instruments":[ { "credit_card_token":{ "credit_card_id":"CARD-12C06250F9727130EKELUPAQ","payer_id":"ppalavilli@yahoo.com" }} ] }, "transactions":[ { "amount":{ "total":"7.47", "currency":"USD" }, "description":"This is the payment transaction description." } ] }' \
+	https://api.sandbox.paypal.com/v1/payments/payment
+

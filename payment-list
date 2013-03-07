@@ -1,0 +1,5 @@
+curl -v -k -H 'Content-Type: application/json' \
+	   -H 'Accept: application/json' \
+	   -H 'Authorization: Bearer EMrebZWqeVTyPQBl8cVKZFgymqAF3wT01ID9UME5IcRD' \
+	https://api.sandbox.paypal.com/v1/payments/payment?start_id=PAY-9B789563573056910KEZ5PMA
+
