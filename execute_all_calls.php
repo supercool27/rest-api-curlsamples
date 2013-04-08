@@ -150,7 +150,7 @@ $payment = array(
 					'total' => '7.47',
 					'currency' => 'USD'
 					),
-				'description' => 'payment by a test script'
+				'description' => 'payment by a credit card using a test script'
 				))
 		);
 $json = json_encode($payment);
@@ -274,7 +274,7 @@ $payment = array(
                                         'total' => '7.47',
                                         'currency' => 'USD'
                                         ),
-                                'description' => 'payment using a saved  card'
+                                'description' => 'payment using a saved card'
                                 ))
                 );
 $json = json_encode($payment);
@@ -322,7 +322,7 @@ $payment = array(
                                         'total' => '7.47',
                                         'currency' => 'USD'
                                         ),
-                                'description' => 'payment using a saved  card'
+                                'description' => 'payment using a PayPal account'
                                 )),
 		'redirect_urls' => array (
 			'return_url' => 'http://www.return.com/?test=123',
